@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 
+body{
+  background-image: url("./assets/img/museumBackground.jpg");
+  background-color: transparent;
+} */
+
+/* Style of header */
+
+div h1{
+  color:black;
+  text-align: center;
+  background-color: burlywood;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Styles of img */
+
+.museumBackground{
+  background-image:url("../img/museumBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center ;
+}
+
+
+
+
