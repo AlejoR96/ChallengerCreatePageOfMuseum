@@ -1,16 +1,25 @@
 // Logic of Program
-let gallery = new Gallery(0, "sculpture");
+let gallery = new Gallery();
+gallery.initializeGallery();
 
-let pieces = new PiecesGallery();
+const galleryPieces = gallery.getPiecesG();
 
+function showAlert(){
+  alert(galleryPieces[0].getDescription())
+};
 
+function showAlert1(){
+  alert(galleryPieces[1].getDescription())
+};
 
+function showAlert2(){
+  alert(galleryPieces[2].getDescription())
+};
 
-function galleryFunction() {
-  return alert(this.id[0] + " is " + this.typeOfArt + " beautiful Art in the museum") ;
-}
+function showAlert3(){
+  alert(galleryPieces[3].getDescription())
+};
 
-
-function getPieces(){
-  return alert(this.name + this.year + this.description + this.author) ;
+function showAlert4(){
+  alert(galleryPieces[4].getDescription())
 };
